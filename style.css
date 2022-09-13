@@ -16,9 +16,13 @@
 }
 
 body {
+    min-height: 100vh;
     background-color: var(--light-gray-blue);
     font-family: 'Barlow Semi Condensed', sans-serif;
     font-size: 13px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 #testimonial-container {
