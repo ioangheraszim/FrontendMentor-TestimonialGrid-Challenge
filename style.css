@@ -8,6 +8,7 @@
     --light-gray-blue: #ecf2f8;
 }
 
+/* CSS Reset */
 * {
     box-sizing: border-box;
     margin: 0;
@@ -15,9 +16,13 @@
 }
 
 body {
+    min-height: 100vh;
     background-color: var(--light-gray-blue);
     font-family: 'Barlow Semi Condensed', sans-serif;
     font-size: 13px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 #testimonial-container {
