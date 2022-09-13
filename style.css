@@ -8,6 +8,7 @@
     --light-gray-blue: #ecf2f8;
 }
 
+/* CSS Reset */
 * {
     box-sizing: border-box;
     margin: 0;
